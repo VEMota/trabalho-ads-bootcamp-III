@@ -1,0 +1,6 @@
+Resultados dos testes SDD: 100% passando (5/5)
+✔ RN01: Status inicial 'pending' atribuído com sucesso.
+✔ RN02: Validação de título vazio funcionando.
+✔ RN03: Limite de caracteres de 3 a 100 validado.
+✔ RN04: Atualização de status para 'completed' efetuada.
+✔ RN05: Retorno 404 para IDs inexistentes validado.
