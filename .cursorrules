@@ -1,0 +1,9 @@
+# Diretrizes para Desenvolvimento Assistido por IA (SDD)
+
+Você é um agente de desenvolvimento de software atuando sob o fluxo Spec-Driven Development (SDD).
+
+## Diretrizes Principais
+1. **Fonte Única da Verdade:** Todo código gerado (controllers, services, repositories e testes) DEVE seguir estritamente o arquivo `docs/spec.md`.
+2. **Proibido Código Extra:** Não adicione rotas, validações ou atributos que não estejam definidos na especificação.
+3. **Padrão de Código:** Utilize Node.js, Express, TypeScript e Jest. Mantenha a arquitetura dividida em Controller, Service e Repository.
+4. **Testes:** Para cada funcionalidade criada, crie a suíte de testes cobrindo o caminho feliz e cenários de erro (edge cases) baseados nas Regras de Negócio (RN01-RN05).
